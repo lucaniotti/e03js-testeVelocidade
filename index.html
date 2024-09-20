@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparar Velocidade de Veículos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Comparar Velocidade de Veículos</h1>
+
+    <div class="form-group">
+        <label for="veiculo1">Nome do Veículo 1:</label>
+        <input type="text" id="veiculo1" placeholder="Digite o nome do veículo 1">
+    </div>
+
+    <div class="form-group">
+        <label for="velocidade1">Velocidade do Veículo 1 (km/h):</label>
+        <input type="number" id="velocidade1" placeholder="Digite a velocidade do veículo 1">
+    </div>
+
+    <div class="form-group">
+        <label for="veiculo2">Nome do Veículo 2:</label>
+        <input type="text" id="veiculo2" placeholder="Digite o nome do veículo 2">
+    </div>
+
+    <div class="form-group">
+        <label for="velocidade2">Velocidade do Veículo 2 (km/h):</label>
+        <input type="number" id="velocidade2" placeholder="Digite a velocidade do veículo 2">
+    </div>
+
+    <button onclick="compararVelocidade()">Comparar Velocidades</button>
+
+    <div class="result" id="resultado">
+        <h2>Resultado</h2>
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
